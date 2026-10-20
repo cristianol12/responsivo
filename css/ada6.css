@@ -1,0 +1,114 @@
+/* ==========================================
+   RESET Y CONFIGURACIÓN GENERAL
+   ========================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #28294f;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* ==========================================
+   CONTENEDOR PRINCIPAL
+   ========================================== */
+.container {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 20px auto; /* Centrado en pantalla con un pequeño respiro arriba */
+    padding: 0;
+}
+
+/* ==========================================
+   ENCABEZADO Y BANNER SUPERIOR
+   ========================================== */
+.encabezado {
+    background-color: #101a40;
+    text-align: center;
+    width: 100%;
+}
+
+.encabezado img {
+    width: 100%;
+    height: auto;
+    display: block; /* Elimina espacios fantasma debajo de la imagen */
+}
+
+/* ==========================================
+   MENÚ DE NAVEGACIÓN
+   ========================================== */
+.menu {
+    background-color: #000000;
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.menu a:hover {
+    background-color: #666666;
+}
+
+/* ==========================================
+   SECCIÓN DE CONTENIDO Y OBJETIVOS
+   ========================================== */
+h3 {
+    color: #50a5b5;
+    margin: 25px 20px 15px 20px;
+    font-size: 22px;
+}
+
+h4 {
+    color: #50a5b5;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* ==========================================
+   IMÁGENES DE LA GALERÍA Y SECCIONES
+   ========================================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Control estricto para las imágenes en filas sin gutters (.row.g-0) */
+.row.g-0 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* ==========================================
+   PIE DE PÁGINA (FOOTER)
+   ========================================== */
+.pie {
+    background-color: #101a40;
+    color: #ffffff;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.pie img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,63 @@
+.amarillo {
+    background-color: #EAE36C;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.naranjafranja {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-color: #EAE36C;
+}
+
+.titulo {
+    color: orange;
+    font-size: 40px;
+    margin-top: 58px;
+    margin-left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondotexto {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 0px 40px 50px 70px;
+    padding: 28px;
+}
+
+.imagenesfondo {
+    padding: 10px;
+}
+
+.cajaimagenes {
+    margin-top: 80px;
+}
+
+.piepagina {
+    background-color: #CCC54E;
+    margin: 0px;
+}
+
+.titulopie {
+    color: #FF9620;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textopie {
+    color: red;
+}
+
+.imagenespie {
+    margin-top: 5px;
+}
